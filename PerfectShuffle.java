@@ -4,7 +4,7 @@ public class PerfectShuffle {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        for (;;) {
+        for (int in = 0; in < 3; in++) {
             int num = in.nextInt();
             if (num == 0) {
                 return;
